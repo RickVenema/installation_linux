@@ -23,3 +23,6 @@ sudo apt install openjdk-8-jre-headless -y
 
 # Install pip
 sudo apt install python3-pip -y
+
+# Install ssh
+sudo apt install openssh-server 
