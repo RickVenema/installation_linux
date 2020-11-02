@@ -16,3 +16,10 @@ sudo apt install git -y
 # Install cuda
 sudo sed -i '/cdrom/d' /etc/apt/sources.list
 sudo ubuntu-drivers autoinstall
+sudo apt install nvidia-cuda-toolkit -y
+
+# Install java
+sudo apt install openjdk-8-jre-headless -y
+
+# Install pip
+sudo apt install python3-pip -y
