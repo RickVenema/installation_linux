@@ -12,3 +12,7 @@ sudo apt install code -y
 
 # Install git
 sudo apt install git -y
+
+# Install cuda
+sudo sed -i '/cdrom/d' /etc/apt/sources.list
+sudo ubuntu-drivers autoinstall
