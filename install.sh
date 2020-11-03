@@ -26,3 +26,6 @@ sudo apt install python3-pip -y
 
 # Install ssh
 sudo apt install openssh-server 
+
+# Install tmux
+sudo apt install tmux -y
